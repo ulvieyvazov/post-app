@@ -11,9 +11,10 @@ const Products = () => {
     const [error, setError] = useState("")
     const [value, setValue] = useState("")
 
-    const Delet = ()=>{
-        
+    const Delet = () => {
+
     }
+    
     const columns = [
         {
             title: 'Name',
@@ -33,6 +34,7 @@ const Products = () => {
         {
             title: 'Delet',
             key: 'delet',
+
             render: (_, record) => (
                 <Space size="middle">
                     <a>Delete</a>
