@@ -1,9 +1,11 @@
-import Products from "./components/Products";
+// import Products from "./components/Products";
+import Api from "./components/product-api/Api";
 
 function App() {
   return (
     <>
-      <Products/>
+      {/* <Products/> */}
+      <Api/>
     </>
   );
 }
